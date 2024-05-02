@@ -1,0 +1,36 @@
+.Feed {
+  height: 100vh;
+  margin-top: 60px;
+
+  .container {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+
+    .left-side {
+      flex: 2;
+      overflow-y: auto;
+    }
+    .right-part {
+      flex: 1;
+      margin-top: 20px;
+
+      .suggestion {
+        margin-top: 20px;
+      }
+      .title {
+        margin-bottom: 12px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Feed {
+    .container {
+      .right-part {
+        display: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.Navbar {
+  height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid var(--border-color);
+  .Container {
+    height: 100%;
+    display: flex;
+    max-width: 960px;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: auto;
+  }
+  .right-side {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .User-name {
+    font-weight: bold;
+  }
+  .logout {
+    font-size: 1.3rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+}
